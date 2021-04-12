@@ -5,7 +5,7 @@
     }
 }
 
-@media(min-width: 768px) and (max-width: 991px) {
+@media(min-width: 768px) and (max-width: 991px) , (width: 991px) {
     .parent {
         width: 47%;
         float: left;
