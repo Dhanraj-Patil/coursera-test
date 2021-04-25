@@ -1,0 +1,58 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    background-color: rgb(255, 204, 109) !important;
+}
+
+header {
+    background-color: bisque;
+    /* background-image: url("../images/Rectangle\ 3.png"); */
+}
+
+.navbar-brand {
+    font-size: 6em;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+}
+
+h2 {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.modify {
+    background-color: rgb(194, 100, 100);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    margin-top: 15px;
+    box-shadow: #fff;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.dropdown.dropbtn {
+    font-family: inherit;
+    background-color: inherit;
+}
+
+button {
+    visibility: hidden;
+}
+
+@media (max-width:500px) {
+    button {
+        visibility: visible;
+    }
+}
+
+ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black!important;
+}
+
+ul a div {
+    padding: 10px;
+}
